@@ -6,9 +6,9 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gotti's Hookah Bar | Premium Shisha Bar Langen",
-  description: 'Dein exklusives Shisha-Erlebnis in Langen. Premium Tabak, Signature Cocktails und eine einzigartige Atmosphäre. Reserviere jetzt deinen Tisch.',
-  keywords: ['Shisha', 'Lounge', 'Langen', 'Hookah', 'Cocktails', 'Bar', 'Gottis'],
+  title: "FABULOUS LOUNGE-SHISHA-BAR | Premium Shisha Bar Egelsbach",
+  description: 'Dein exklusives Shisha-Erlebnis in Egelsbach. Premium Tabak, Signature Cocktails und eine einzigartige Atmosphäre. Reserviere jetzt deinen Tisch.',
+  keywords: ['Shisha', 'Lounge', 'Egelsbach', 'Hookah', 'Cocktails', 'Bar', 'FABULOUS'],
 }
 
 export const viewport: Viewport = {

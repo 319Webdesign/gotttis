@@ -24,7 +24,7 @@ export function HeroSection() {
       <div className="absolute inset-0 w-full h-full">
         <img
           src="/hero-bg.png"
-          alt="Gotti's Hookah and Bar Atmosphäre"
+          alt="FABULOUS LOUNGE-SHISHA-BAR Atmosphäre"
           className="absolute inset-0 w-full h-full object-cover object-center"
           style={{ minHeight: '100vh', minWidth: '100%' }}
           fetchPriority="high"
@@ -35,7 +35,7 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto pt-20 pb-32 md:pb-40">
         <p className="text-primary text-sm md:text-base font-medium tracking-[0.3em] uppercase mb-4 md:mb-6">
-          Gottis Hookah and Bar
+          FABULOUS LOUNGE-SHISHA-BAR
         </p>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 md:mb-8 leading-tight text-balance">
           Dein Abend,
@@ -60,10 +60,15 @@ export function HeroSection() {
               {[1, 2, 3, 4].map((i) => (
                 <Star key={i} className="w-3 h-3 sm:w-4 sm:h-4 fill-yellow-400 text-yellow-400" />
               ))}
-              <Star className="w-3 h-3 sm:w-4 sm:h-4 fill-yellow-400/40 text-yellow-400" />
+              <div className="relative w-3 h-3 sm:w-4 sm:h-4 shrink-0">
+                <Star className="absolute inset-0 w-full h-full text-yellow-400/40" />
+                <div className="absolute inset-y-0 left-0 w-3/4 overflow-hidden">
+                  <Star className="absolute left-0 top-0 w-3 h-3 sm:w-4 sm:h-4 fill-yellow-400 text-yellow-400" />
+                </div>
+              </div>
             </div>
-            <span className="text-xs sm:text-sm font-medium text-foreground">4,4</span>
-            <span className="text-xs sm:text-sm text-muted-foreground hidden xs:inline">/ 91 Rezensionen</span>
+            <span className="text-xs sm:text-sm font-medium text-foreground">4,8</span>
+            <span className="text-xs sm:text-sm text-muted-foreground hidden xs:inline">/ 118 Rezensionen</span>
           </div>
         </div>
 

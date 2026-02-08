@@ -36,10 +36,10 @@ export function SpecialOffersSection() {
     return () => clearInterval(interval)
   }, [])
 
-  const whatsappNumber = "491732052569"
+  const whatsappNumber = "4961039078080"
   const whatsappMessage = encodeURIComponent(
     isLunch 
-      ? "Hallo! Ich möchte gerne den Gottis Lunch Deal reservieren."
+      ? "Hallo! Ich möchte gerne den FABULOUS Lunch Deal reservieren."
       : "Hallo! Ich möchte gerne einen Tisch reservieren."
   )
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
@@ -103,7 +103,7 @@ export function SpecialOffersSection() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 mb-6">
               <span className="text-amber-400 text-sm font-medium tracking-widest uppercase">
-                Gottis Exclusive
+              FABULOUS Exclusive
               </span>
               {isLunch && (
                 <span className="flex items-center gap-1.5 bg-green-500/10 border border-green-500/20 rounded-full px-3 py-1">
@@ -119,11 +119,11 @@ export function SpecialOffersSection() {
             {/* Headline */}
             <h2 className="text-4xl sm:text-5xl lg:text-7xl font-black mb-4 sm:mb-6 leading-[0.95] tracking-tight">
               <span className="bg-gradient-to-b from-white via-white to-amber-200/60 bg-clip-text text-transparent">
-                Gottis
+              FABULOUS
               </span>
               <br />
               <span className="bg-gradient-to-b from-amber-300 via-amber-400 to-amber-600/80 bg-clip-text text-transparent">
-                Lunch Deal
+                Happy Hour Deal
               </span>
             </h2>
 
@@ -131,17 +131,14 @@ export function SpecialOffersSection() {
             <div className="flex flex-col items-center lg:items-start gap-1 text-zinc-500 mb-6">
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4" />
-                <span className="text-sm">So – Do | 15:00 – 19:00 Uhr</span>
+                <span className="text-sm">Mo – Sa | 19:00 – 20:00 Uhr</span>
               </div>
-              <div className="flex items-center gap-2">
-                <Clock className="w-4 h-4" />
-                <span className="text-sm">Fr + Sa | 14:00 – 19:00 Uhr</span>
-              </div>
+             
             </div>
 
             {/* Subline */}
             <p className="text-zinc-400 text-base sm:text-lg md:text-xl leading-relaxed mb-6 sm:mb-10 max-w-md mx-auto lg:mx-0">
-              Deine perfekte Auszeit in Langen. Genieße eine Premium-Shisha inkl. Softdrink für nur
+              Deine perfekte Auszeit in Egelsbach. Genieße eine Premium-Shisha inkl. Softdrink für nur
             </p>
 
             {/* Price */}
@@ -152,7 +149,7 @@ export function SpecialOffersSection() {
               <div className="relative">
                 <span className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter">
                   <span className="relative bg-gradient-to-b from-amber-300 via-amber-400 to-amber-500 bg-clip-text text-transparent">
-                    10€
+                    12€
                   </span>
                 </span>
               </div>

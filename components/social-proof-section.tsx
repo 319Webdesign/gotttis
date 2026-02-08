@@ -66,12 +66,12 @@ export function SocialProofSection() {
             <span className="text-muted-foreground text-sm">
               Folge uns auf{" "}
               <a
-                href="https://www.instagram.com/gottishookahandbar/"
+                href="https://www.instagram.com/fabulousloungeshishabar/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:underline font-medium"
               >
-                @gottishookahandbar
+                @fabulousloungeshishabar
               </a>
             </span>
           </div>

@@ -9,14 +9,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-6">
           {/* Logo */}
           <div className="text-xl font-bold tracking-tight text-center md:text-left">
-            <span className="text-primary">Gotti's</span>
-            <span className="text-foreground"> Hookah Bar</span>
+            <span className="text-primary">FABULOUS</span>
+            <span className="text-foreground"> LOUNGE-SHISHA-BAR</span>
           </div>
 
           {/* Social Links - Centered */}
           <div className="flex items-center justify-center gap-4">
             <a
-              href="https://www.instagram.com/gottishookahandbar/"
+              href="https://www.instagram.com/fabulousloungeshishabar/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-card dark:bg-slate-800/50 border border-border dark:border-slate-700 rounded-lg hover:border-primary/50 dark:hover:border-slate-600 hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ export function Footer() {
               <Instagram size={20} />
             </a>
             <a
-              href="https://facebook.com/gottishookahbar"
+              href="https://facebook.com/fabulousloungeshishabar"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-card dark:bg-slate-800/50 border border-border dark:border-slate-700 rounded-lg hover:border-primary/50 dark:hover:border-slate-600 hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ export function Footer() {
 
           {/* Copyright */}
           <p className="text-muted-foreground text-xs sm:text-sm text-center md:text-right">
-            © {currentYear} Gotti's Hookah Bar
+            © {currentYear} FABULOUS LOUNGE-SHISHA-BAR
           </p>
         </div>
 

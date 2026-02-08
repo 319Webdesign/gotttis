@@ -2,8 +2,8 @@ import { MapPin, Clock, Phone, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const openingHours = [
-  { day: "Sonntag - Donnerstag", hours: "16:00 - 01:00" },
-  { day: "Freitag - Samstag", hours: "16:00 - 03:00" },
+  { day: "So – Do", hours: "18:00 – 01:00 Uhr" },
+  { day: "Fr – Sa", hours: "18:00 – 03:00 Uhr" },
 ]
 
 export function ContactSection() {
@@ -32,8 +32,8 @@ export function ContactSection() {
                 <div>
                   <h3 className="text-foreground font-semibold text-lg mb-2">Standort</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Gartenstraße 5<br />
-                    63225 Langen, Hessen<br />
+                    Ernst-Ludwig Str. 2<br />
+                    63329 Egelsbach, Hessen<br />
                     Deutschland
                   </p>
                 </div>
@@ -69,13 +69,13 @@ export function ContactSection() {
                 <div>
                   <h3 className="text-foreground font-semibold text-lg mb-2">Kontakt</h3>
                   <p className="text-muted-foreground">
-                    <a href="tel:+491732052569" className="hover:text-primary transition-colors">
-                      0173 2052569
+                    <a href="tel:+4961039078080" className="hover:text-primary transition-colors">
+                      06103 9078080
                     </a>
                   </p>
                   <p className="text-muted-foreground">
-                    <a href="mailto:info@gottis-hookahbar.de" className="hover:text-primary transition-colors">
-                      info@gottis-hookahbar.de
+                    <a href="mailto:info@fabulousloungeshishabar.de" className="hover:text-primary transition-colors">
+                      info@fabulousloungeshishabar.de
                     </a>
                   </p>
                 </div>
@@ -103,7 +103,7 @@ export function ContactSection() {
                 className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 text-base px-8"
               >
                 <a
-                  href="https://wa.me/491732052569?text=Hallo,%20ich%20möchte%20gerne%20einen%20Tisch%20reservieren."
+                  href="https://wa.me/4961039078080?text=Hallo,%20ich%20möchte%20gerne%20einen%20Tisch%20reservieren."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -115,14 +115,14 @@ export function ContactSection() {
             {/* Map Placeholder */}
             <div className="flex-1 min-h-[250px] bg-card/50 dark:bg-slate-800/30 backdrop-blur-sm border border-border dark:border-slate-700 rounded-xl overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5130.232575563093!2d8.671582576807959!3d49.9904292203793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd7304f7e6a8c1%3A0x4e060ff5a874544b!2sGOTTI&#39;S!5e0!3m2!1sde!2sde!4v1770285919793!5m2!1sde!2sde"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2566.26496145732!2d8.659619576030318!3d49.968889421920935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd73ba10c913b7%3A0x22b7ef4a6f9c454e!2sFABULOUS%20LOUNGE-SHISHA-BAR!5e0!3m2!1sde!2sde!4v1770483851393!5m2!1sde!2sde"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "250px" }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Gotti's Hookah Bar Standort"
+                title="FABULOUS LOUNGE-SHISHA-BAR Standort"
               />
             </div>
           </div>

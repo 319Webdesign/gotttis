@@ -50,11 +50,11 @@ export function Navbar() {
             aria-label="Zur Startseite"
           >
             <Image
-              src="/GottisLogo-bg.png"
-              alt="Gotti's - Hookah and Bar"
-              width={100}
-              height={100}
-              className="h-14 w-auto md:h-16 object-contain"
+              src="/Logo.png"
+              alt="FABULOUS LOUNGE-SHISHA-BAR"
+              width={250}
+              height={250}
+              className="h-16 w-auto md:h-20 object-contain"
               priority
             />
           </button>

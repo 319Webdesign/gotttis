@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Gottis Dark Theme - Deep Black + Gold */
+  /* FABULOUS Dark Theme - Deep Black + Gold */
   --background: oklch(0.07 0.005 260);
   --foreground: oklch(0.95 0.01 90);
   --card: oklch(0.16 0.005 260);

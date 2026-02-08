@@ -4,7 +4,7 @@ import { useState } from "react"
 import { X } from "lucide-react"
 
 const galleryImages = [
-  { src: "/Gallerie1.jpg", alt: "Gotti's Hookah Bar" },
+  { src: "/Gallerie1.jpg", alt: "FABULOUS LOUNGE-SHISHA-BAR" },
   { src: "/Gallerie2.jpg", alt: "Premium Shisha Auswahl" },
   { src: "/Gallerie3.jpg", alt: "Lounge Atmosphäre" },
   { src: "/Gallerie4.jpg", alt: "Gemütlicher Bereich" },

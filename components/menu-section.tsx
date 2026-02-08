@@ -14,7 +14,7 @@ const categories = [
 
 const menuItems: Record<Category, { name: string; description: string; price: string }[]> = {
   tabak: [
-    { name: "Gotti's Signature Blend", description: "Unser exklusiver Hausmix mit Noten von Traube, Minze und einem Hauch Vanille", price: "18€" },
+    { name: "FABULOUS Signature Blend", description: "Unser exklusiver Hausmix mit Noten von Traube, Minze und einem Hauch Vanille", price: "18€" },
     { name: "Tropical Paradise", description: "Fruchtige Mischung aus Mango, Passionsfrucht und Kokosnuss", price: "16€" },
     { name: "Arctic Fresh", description: "Intensive Minze mit kühlem Menthol für ein erfrischendes Erlebnis", price: "15€" },
     { name: "Oriental Nights", description: "Klassische orientalische Aromen mit Anis und Kardamom", price: "17€" },
@@ -22,7 +22,7 @@ const menuItems: Record<Category, { name: string; description: string; price: st
     { name: "Golden Apple", description: "Doppel-Apfel Klassiker mit einem Hauch Zimt", price: "15€" },
   ],
   cocktails: [
-    { name: "Gotti's Sunset", description: "Vodka, Passionsfrucht, Orangensaft und ein Spritzer Grenadine", price: "14€" },
+    { name: "FABULOUS Sunset", description: "Vodka, Passionsfrucht, Orangensaft und ein Spritzer Grenadine", price: "14€" },
     { name: "Midnight Mojito", description: "Dunkler Rum, frische Minze, Limette und Rohrzucker", price: "13€" },
     { name: "Golden Hour", description: "Bourbon, Honigsirup, Zitrone und Angostura Bitters", price: "15€" },
     { name: "Velvet Rose", description: "Gin, Rosensirup, Hibiskus und Prosecco", price: "14€" },
